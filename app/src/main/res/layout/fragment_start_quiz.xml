@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartQuiz"
+    android:background="@drawable/ab"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFS2631 QUIZ"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/instructions"
+        />
+
+    <TextView
+        android:id="@+id/instructionslist"
+        android:layout_width="301dp"
+        android:layout_height="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="10 different questions from the course will be shown here, where you will have the options of either answering from option A,B,C,D. There is a 30 second timer for each question and feedback will also be provided regarding the correct answer after each turn."
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="Start Quiz"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+    
+
+
+
+
+</RelativeLayout>
